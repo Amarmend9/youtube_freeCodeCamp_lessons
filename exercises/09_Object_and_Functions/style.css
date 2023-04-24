@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.friut {
+    width: 300px;
+    padding: 15px 10px;
+    border-radius: 15px;
+    margin-bottom: 0.75rem;
+}
+
+.friut.apple-shelf {
+    background-color: lightcoral;
+
+}
+
+.friut.orange-shelf {
+    background-color: lightsalmon;
+
+}

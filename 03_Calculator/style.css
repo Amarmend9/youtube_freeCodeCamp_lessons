@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px #000 solid;
+    background-color: #fff;
+    width: 90px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle; */
+    width: 100vw;
+    height: 100vh;
+}
+
